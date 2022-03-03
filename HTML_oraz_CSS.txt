@@ -1,0 +1,71 @@
+====HTML====
+
+<body>
+<head> <link rel="stylesheet" href="esssa.css">
+<div id="strona">
+<div id="logo">
+<img src="auto1.jpg" alt="Moja księgarnia" class="bella"/>
+</div>
+<ul id="nawigacja">
+
+<li><a href="https://www.autohero.com/pl/?gclid=EAIaIQobChMI1amiyeGq9gIV0H0rCh3QMw9YEAAYASAAEgJj5PD_BwE">Link do przeglądarki naszych aktualnych pojazdow</a></li>
+<li><a href="https://allegro.pl/kategoria/samochody-osobowe-4029?string=samochody%20osobowe%20%20do%203000%20zl">Samochody do 3000zł w naszej ofercie</a></li>
+<li><a href="https://www.mercedes-benz.pl/passengercars.html">Nasz sponsor aut premium </a></li>
+<li><a href="https://autokomisbaron.pl/kontakt/">Kontakt</a></li>
+</ul>
+<p><img src="auto2.jpg"  class="kucc"  alt="Książki dla Ciebie"/> </p>
+<p>Posiadamy kazdy model aut jak i motorowerow
+</p>
+</head>
+</body>
+
+
+====CSS====
+
+body{
+font-family "Courier new", Courier, monospace;
+letter-spacing:0.15em;
+background-color:#f2e9d3;}
+#strona{
+mas-width:940px;
+min-width:720px;
+margin:10px auto 10px auto;
+padding:20px;
+border:4px double #000;
+background-color:#ffffff;}
+
+#logo{
+width:500px;
+margin:10px auto 25px auto;}
+p{
+text-align:center;
+width:710px;
+margin:20px auto 20px auto;
+font-weight:normal;}
+ul{
+width:680px;
+padding:10px;
+margin:0px auto 0px auto;
+border-top:2px solid #000;
+border-bottom:1px solid #000;
+text-align:center;}
+li{
+display:inline;}
+a{
+color:#0000000;
+text-transform:uppercase;
+text-decoration:none;
+padding:6px 18px 5px 18px;}
+a:hover, a.on{
+color:#cc3333;}
+
+img.bella{
+width: 500px;
+height: 300px;
+}
+
+img.kucc{
+width: 500px;
+height:300px;
+}
+
